@@ -1,6 +1,6 @@
 # Nomad on Nix
 
-This repository contains [Nix](https://nixos.org/) packages for some of my
+This repository contains [Nix](https://nixos.org/) expressions for some of my
 command-line utilities.
 
 I’m only just experimenting with Nix at the moment, so expect this to be very

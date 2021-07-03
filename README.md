@@ -11,5 +11,5 @@ unidiomatic and subject to random change for a while.
 ```sh
 $ nix-channel --add https://github.com/clarkema/nix-nomad/archive/master.tar.gz nomad
 $ nix-channel --update
-$ nix-env -iA tm
+$ nix-env -iA nomad.tm
 ```

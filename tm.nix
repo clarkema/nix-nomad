@@ -5,8 +5,8 @@ stdenv.mkDerivation {
   src = fetchFromGitHub {
     owner = "clarkema";
     repo = "tm";
-    rev = "master";
-    sha256 = "0zya4zc2ra5v5rj8rn5n421dbg9lcbxfc0jcqdbmcg4csgx5ah0j";
+    rev = "adfa1665bce4a5a03c3c43ee7bd33f3aa6435522";
+    sha256 = "sha256-WVNKX0D+CAkwGepEwIq/ZCLK3I2flIvQimoFvJxgmKY=";
   };
   buildInputs = [ makeWrapper ];
   installPhase = ''

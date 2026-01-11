@@ -17,9 +17,11 @@
     in {
       packages = forAllSystems(pkgs:
         let
+          pcal  = import ./pcal.nix { inherit pkgs; };
           tm  = import ./tm.nix { inherit pkgs; };
         in
         {
+          pcal = pcal;
           tm = tm;
         }
       );
